@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 51px;
+    margin-left: 200px;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    border: 0;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-sub-title {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.header {
+    background-color: #FFF;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.about {
+    max-width: 1140px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 156px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
