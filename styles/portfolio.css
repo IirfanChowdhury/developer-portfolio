@@ -35,11 +35,25 @@ nav ul {
     background: #FD6E0A;
     width: 150px;
     height: 64px;
-    border: 0;
     color: var(--White-Color, #FFF);
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px 19px 36;
+    border: 0;
+}
+
+.btn-subprimary {
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 .banner {
@@ -116,4 +130,209 @@ nav ul {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+
+.what-i-do {}
+
+.title-ido {
+    margin-top: 130px;
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.description-ido {
+    margin-top: 30px;
+    margin-left: 345px;
+    margin-right: 345px;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.skills-container {
+    display: flex;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 50px;
+}
+
+.skills {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-title {
+    margin-top: 30px;
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+img {
+    margin-top: 80px;
+}
+
+.skill-description {
+    margin-right: 90px;
+    margin-top: 20px;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.summary-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 130px;
+}
+
+.resume {
+    display: flex;
+    margin-top: 113px;
+    max-width: 1600px;
+    margin-left: 230px;
+    justify-content: space-around;
+}
+
+.title-1 {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: f;
+}
+
+.title-2 {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.resume-description {
+    margin-top: 20px;
+    max-width: 511px;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.sub-title {
+    margin-top: 10px;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-summ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    margin: 19px 17px 18px 51px;
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #FFF;
+    color: var(--White-Color, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-summary {
+    margin-left: 700px;
+    margin-top: 90px;
+}
+
+input {
+    display: block;
+}
+
+.connect {
+    display: flex;
+    gap: 117px;
+    padding-left: 230px;
+    padding-right: 230px;
+    margin-top: 243px;
+}
+
+.connect-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.connect-container a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.connect-container p {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.connect input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 8px 30px;
+    border: 0;
+
+}
+
+input {
+    height: 64px;
 }
